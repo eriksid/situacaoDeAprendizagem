@@ -1,0 +1,3 @@
+
+total.on("click",function(){total.text(parseInt(total.text())+2)});
+var total = $("#total-salgados");
