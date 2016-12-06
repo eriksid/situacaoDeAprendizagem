@@ -37,41 +37,47 @@
 </nav>
   </header>
 		<section>
-
-			<img src="img/expresso.png "  />
-			<p>Café expresso,4 calorias</p>
+            <label for="cafe1"><img src="img/expresso.png " class="img-responsive" />Café expresso,4 calorias </label>
+			<input type="checkbox" name="cafe1" id="cafe1" value="4">
 
 		</section>
 		<section>
-
-		<img src="img/cappuccino.png" />
-		<p>Cappuccino,56 calorias</p>
+        <label for="cafe2"><img src="img/cappuccino.png" class="img-responsive"/>Cappuccino,56 calorias</label>
+        <input type="checkbox" name="cafe2" id="cafe2" value="56">
+		
+	
 		
 		</section>
 		
 		<section>
-
-			<img src="img/chocolate_quente2.jpg" />
-			<p>Chocolate quente, 129 calorias</p>
+                <label for="chocolate"><img src="img/chocolate_quente2.jpg" class="img-responsive"/>Chocolate quente, 129 calorias</label>
+			
+		
+			<input type="checkbox" name="chocolate" id="chocolate" value="129">
 		</section>
 			
 
 		<section>
-
-			<img src="img/suco.png" />
-			<p>Suco,112 calorias</p>
+            <label for="suco"><img src="img/suco.png"class="img-responsive" />Suco,112 calorias</label>
+            <input type="checkbox" name="suco" id="suco"value="112">
+		
 			</section>
 		<section>
-
-			<img src="img/refrilata.png" />
-			<p>Refrigerante, 149 calorias </p>
+            <label for="refrigerante"><img src="img/refrilata.png" class="img-responsive" />Refrigerante, 149 calorias</label>
+            <input type="checkbox" name="refrigerante" id="refrigerante" value="149">
+			
+			
 		</section>
+		<section>
+              <p>Total: <span id="totalcal">0</span>, calorias</p>
+			   <button type="submit" onclick="somaCalorias()" class="btn btn-primary" id="btnCalcula">calcular Calorias</button> 
+			</section>
 		<div class="clear"> </div>
 		<footer>
 		
 	</footer>
 	</div>
 	<scritp src="bootstrap/js/bootstrap.min.js"></scritp>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/teste.js"></script>
-</body>
 </html>

@@ -37,26 +37,32 @@
 </nav>
   </header>
 		<section>
+<label for="bolo"><img src="img/trufado.png" class="img-responsive">Fatia de bolo, 235 calorias</label>
+            <input type="checkbox" name="bolo" id="bolo" value="235">
+			
 
-			<img src="img/trufado.png" >
-			<p>Fatia de bolo, 235 calorias</p>
 		</section>
 		<section>
-
-			<img src="img/tradicional.png"/>
-			<p>Brigadeiro, 68 calorias e</p>
+            <label for="brigadeiro"><img src="img/tradicional.png" class="img-responsive"/>Brigadeiro, 68 calorias e</label>
+			<input type="checkbox" name="brigadeiro" id="brigadeiro" value="68">
+			
 		</section>
 		<section>
-
-			<img src="img/Sonho.png"/>
-			<p>Sonho, 109 calorias </p>
+            <label for="sonho"><img src="img/Sonho.png" class="img-responsive"/>Sonho, 109 calorias</label>
+			<input type="checkbox" name="sonho" id="sonho" value="109">
+			
 		</section>
+		<section>
+              <p>Total: <span id="totalcal">0</span>, calorias</p>
+			   <button type="submit" onclick="somaCalorias()" class="btn btn-primary" id="btnCalcula">calcular Calorias</button> 
+			</section>
 		<div class="clear"> </div>
 		<footer>
 		
 	</footer>
 	</div>
 	<scritp src="bootstrap/js/bootstrap.min.js"></scritp>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/teste.js"></script>
 </body>
 </html>

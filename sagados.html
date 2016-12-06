@@ -37,33 +37,38 @@
 </nav>
   </header>
 		<section>
+            <label for="coxinha"><img src="img/coxinha-2.png" class="img-responsive">Coxinha, 205 calorias</label>
+            <input type="checkbox" name="coxinha" id="coxinha" value="205">
 
-			<img src="img/coxinha-2.png" id="coxinha">
-			<p>Coxinha, <span id="coxinhaN">205</span> calorias</p>
 		</section>
 		<section>
-
-			<img src="img/esfirra-frango-2.png"/>
-			<p>Esfirra, 185 calorias</p>
+            <label for="esfirra"><img src="img/esfirra-frango-2.png" class="img-responsive"/>Esfirra, 185 calorias</label>
+			<input type="checkbox" name="esfirra" id="esfirra" value="185">
+			
 			</section>
 		<section>
-
-			<img src="img/p_hamburgao-516x242.png" />
-		<p>Hamburgão,  270 calorias</p>
+            <label for="hamburgao"><img src="img/p_hamburgao-516x242.png" class="img-responsive"/>Hamburgão,  270 calorias</label>
+			<input type="checkbox" name="hamburgao" id="hamburgao" value="270">
+		
 			</section>
 		
 		<section>
 
-
-			<img src="img/pao de queijo schultz.png"/>
-			<p>Pão de queijo, 149 calorias</p>
+            <label for="paodequeijo"><img src="img/pao de queijo schultz.png" class="img-responsive"/>Pão de queijo, 149 calorias</label>
+			<input type="checkbox" name="paodequeijo" id="paodequeijo" value="149">
+			
 			</section>
 			<section>
-
-			<img src="img/RISOLES-DE-PALMITO-300x200.png"/>
-			<p>Risoles,69 calorias</p>
+            <label for="risoles"><img src="img/RISOLES-DE-PALMITO-300x200.png" class="img-responsive"/>Risoles,69 calorias</label>
+		    <input type="checkbox" name="risoles" id="risoles" value="69">
+		    
+			
 			</section>
-			<p >Total:<span id="total-salgados">0</span></p>
+			<section>
+             <p>Total: <span id="totalcal">0</span>, calorias</p>
+			  <button type="submit" onclick="somaCalorias()" class="btn btn-primary" id="btnCalcula">calcular Calorias</button>  
+			</section>
+			
 			
 <div class="clear"> </div>
 			<footer>

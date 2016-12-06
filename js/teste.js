@@ -1,7 +1,13 @@
-var total = $("#total-salgados");
-total.on("click",function(){total.text(parseInt(total.text())+2)});
-var coxinha = $("#coxinha");
-var coxinhaP =$("#coxinhaP").text();
-coxinha.on("click"function(){
-	total.text(coxinhaP);
-})
+function somaCalorias(){
+var produto =document.getElementsByTagName("input");
+var qtdProdutos = produto.length;
+var total= 0;
+
+for (i= 0; i < qtdProdutos; i++){
+    if(produto[i].checked == true){
+        total= total + parseInt(produto[i].value);
+    } 
+}
+    $("#totalcal").text(total);
+};
+
