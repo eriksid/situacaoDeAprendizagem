@@ -1,8 +1,5 @@
-function somaCalorias(){
-
-
-};
 var btnCalcular = document.querySelector(".btnCalcular");
+
 btnCalcular.addEventListener("click",function (envent){
     event.preventDefault();
     
@@ -19,4 +16,4 @@ btnCalcular.addEventListener("click",function (envent){
     var totalcal = document.querySelector("#totalcal");
     totalcal.textContent = total;
 
-})
+});
