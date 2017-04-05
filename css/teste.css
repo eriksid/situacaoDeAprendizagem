@@ -8,6 +8,10 @@
 	
 
 }
+.titulo {
+	font-family: "Open Sans Condensed", "arial" ,sans-serif;
+	text-align: center;
+}
 .total{
 	font-size: 2em;
 }
